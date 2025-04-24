@@ -1,5 +1,5 @@
 # Stable Diffusion 3.5 Inpainting in ONNX
-Gradio demo of inpainting using Stable Diffusion 3.5 Large, using the ONNX Runtime instead of PyTorch
+Gradio demo of inpainting using Stable Diffusion 3.5 Medium, using the ONNX Runtime instead of PyTorch
 
 ### Screenshot
 ![screenshot.png](./images/screenshot.png)
