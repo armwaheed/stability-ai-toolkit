@@ -8,10 +8,8 @@ Gradio demo of inpainting using Stable Diffusion 3.5 Medium, using the ONNX Runt
 ![example_input_256x256.png](./images/example_input_256x256.png) ![](./images/example_mask_256x256.png)
 
 ## Quick Start
-1. Open a web browser, log in to Hugging Face and register your name and email,
-   to use [stable-diffusion-3.5-large](https://huggingface.co/stabilityai/stable-diffusion-3.5-large)
+1. Open a web browser, log in to Hugging Face
 2. Create a new Hugging Face [user access token](https://huggingface.co/docs/hub/en/security-tokens),
-   which will capture that you completed the registration form
 3. Clone this repo to your machine and change into the directory for this demo:
    ```
    cd ./stability-ai-toolkit/sd35-inpainting-onnx
