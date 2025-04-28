@@ -15,4 +15,4 @@
 
 optimum-cli export onnx \
   --model ${HUGGINGFACE_SOURCE_MODEL} \
-  exported_model_name
+  ${EXPORTED_MODEL_NAME}
