@@ -12,10 +12,8 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-accelerate>=1.6.0
 diffusers>=0.33.1
 gradio>=5.25.2
 onnxruntime>=1.21.1
 optimum[onnxruntime]>=1.24.0
 sentencepiece>=0.2.0
-transformers>=4.29

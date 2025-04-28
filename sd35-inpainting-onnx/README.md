@@ -4,8 +4,8 @@ Gradio demo of inpainting using Stable Diffusion 3.5 Medium, using the ONNX Runt
 ### Screenshot
 ![screenshot.png](./images/screenshot.png)
 
-#### Input Image and Gradio ImageMask
-![example_input_256x256.png](./images/example_input_256x256.png) ![](./images/example_mask_256x256.png)
+#### Input Image
+![sample_input.png](./images/sample_input.png)
 
 ## Quick Start
 1. Open a web browser, log in to Hugging Face and register your name and email,
