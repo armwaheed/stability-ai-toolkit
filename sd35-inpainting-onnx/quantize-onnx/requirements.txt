@@ -3,12 +3,10 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 # requirements.txt
-# Stable Diffusion 3.5 Inpainting using ONNX
+# Quantize ONNX model to INT8
 #
-# Created by Waheed Brown on April 24, 2025
+# Created by Waheed Brown on May 5, 2025
 
 diffusers>=0.33.1
-gradio>=5.25.2
+onnx>=1.17.0
 onnxruntime>=1.21.1
-optimum[onnxruntime]>=1.24.0
-sentencepiece>=0.2.0
