@@ -33,9 +33,20 @@ The scripts in this folder are tools for converting Stable Diffusion 3.5 Medium 
    ```
 8. Upload the exported model to your Huggingface repo, using [huggingface_upload.py](./huggingface_upload.py) (you will need a Hugging Face Pro account as the exported folder / files will be very large):
    ```
-   python huggingface_upload.py [path-to/your-hugging-face-repo] [onnx-model-name]
-   
-   # Example:
-   #
-   # python huggingface_upload.py armwaheed/stable-diffusion-3.5-medium-onnx stable-diffusion-3.5-medium-onnx
+   git lfs install
+
+   python huggingface_upload.py [path-to/hugging-face-repo] [path/to/model/folder] [--commit_message "Your commit message"] [--token YOUR_HF_TOKEN]
+   ```
+   **Example:**
+   ```
+   git lfs install
+
+   python huggingface_upload.py armwaheed/stable-diffusion-3.5-medium-onnx ~/workspaces/git/stable-diffusion-3.5-medium-onnx --commit_message "Initial commit" --token hf_XXXXXXXX 
+   ```
+   **WARNING:**
+   This script fails on images, with the below error message, so be sure to upload images manually in the Hugging Face web UI for your repo:
+   ```
+   An error occurred during upload:
+   ...
+   Your push was rejected because an LFS pointer pointed to a file that does not exist. ... Offending file: - sd3.5_medium_demo.jpg - mmdit-x.png
    ```

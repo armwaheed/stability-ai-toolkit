@@ -36,7 +36,8 @@ python3 quantize_onnx.py
 ```
 
 ## Quantization Model Size Reduction
-|[Stable Diffusion 3.5 Medium](https://huggingface.co/armwaheed/stable-diffusion-3.5-medium-onnx/tree/main)|Original ONNX Size (GB)|Quantized File Name|Quantized ONNX Size (GB)|
+Example quantization results for [Stable Diffusion 3.5 Medium ONNX](https://huggingface.co/armwaheed/stable-diffusion-3.5-medium-onnx/tree/main) (SD3.5 M ONNX)
+|[SD3.5 M ONNX](https://huggingface.co/armwaheed/stable-diffusion-3.5-medium-onnx/tree/main)|Original ONNX Size (GB)|[SD3.5 M ONNX INT8](https://huggingface.co/armwaheed/stable-diffusion-3.5-medium-onnx-int8/tree/main)|Quantized ONNX Size (GB)|
 |-----------------------------------------|-----------------------|-------------------|------------------------|
 |Total Original ONNX Size|32.494 GB|Total Quantized ONNX Size|8.827 GB|
 |[text_encoder](https://huggingface.co/armwaheed/stable-diffusion-3.5-medium-onnx/tree/main/text_encoder)/model.onnx|0.495 GB|model.int8.onnx|0.124 GB|
