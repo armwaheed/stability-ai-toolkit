@@ -43,9 +43,6 @@ Example quantization results for [Stable Diffusion 3.5 Medium ONNX](https://hugg
 |[text_encoder](https://huggingface.co/armwaheed/stable-diffusion-3.5-medium-onnx/tree/main/text_encoder)/model.onnx|0.495 GB|model.int8.onnx|0.124 GB|
 |[text_encoder_2](https://huggingface.co/armwaheed/stable-diffusion-3.5-medium-onnx/tree/main/text_encoder_2)/model.onnx<br/>[text_encoder_2](https://huggingface.co/armwaheed/stable-diffusion-3.5-medium-onnx/tree/main/text_encoder_2)/model.onnx_data|0.001 GB<br/>2.78 GB|model.int8.onnx|0.698 GB|
 |[text_encoder_3](https://huggingface.co/armwaheed/stable-diffusion-3.5-medium-onnx/tree/main/text_encoder_3)/model.onnx<br/>[text_encoder_3](https://huggingface.co/armwaheed/stable-diffusion-3.5-medium-onnx/tree/main/text_encoder_3)/model.onnx_data|0.0005 GB<br/>19 GB|model.int8.onnx|4.764 GB|
-|[tokenizer](https://huggingface.co/armwaheed/stable-diffusion-3.5-medium-onnx/tree/main/tokenizer)|0 GB|N/A|0 GB|
-|[tokenizer_2](https://huggingface.co/armwaheed/stable-diffusion-3.5-medium-onnx/tree/main/tokenizer_2)|0 GB|N/A|0 GB|
-|[tokenizer_3](https://huggingface.co/armwaheed/stable-diffusion-3.5-medium-onnx/tree/main/tokenizer_3)|0 GB|N/A|0 GB|
 |[transformer](https://huggingface.co/armwaheed/stable-diffusion-3.5-medium-onnx/tree/main/transformer)/model.onnx<br/>[transformer](https://huggingface.co/armwaheed/stable-diffusion-3.5-medium-onnx/tree/main/transformer)/model.onnx_data|0.002 GB<br/>9.88 GB|model.int8.onnx|3.156 GB|
 |[vae_decoder](https://huggingface.co/armwaheed/stable-diffusion-3.5-medium-onnx/tree/main/vae_decoder)/model.onnx|0.198 GB|model.int8.onnx|0.05 GB|
 |[vae_encoder](https://huggingface.co/armwaheed/stable-diffusion-3.5-medium-onnx/tree/main/vae_encoder)/model.onnx|0.137 GB|model.int8.onnx|0.035 GB|
