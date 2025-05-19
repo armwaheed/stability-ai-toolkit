@@ -9,6 +9,6 @@
 
 diffusers>=0.33.1
 gradio>=5.25.2
-onnxruntime>=1.21.1
+onnxruntime>=1.22.0
 optimum[onnxruntime]>=1.24.0
 sentencepiece>=0.2.0
