@@ -3,11 +3,13 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 # requirements.txt
-# Quantize ONNX model to INT8
+# Quantizing Stable Diffusion 3.5 Medium using ONNX Live (Olive)
 #
-# Created by Waheed Brown on May 5, 2025
+# Created by Waheed Brown on August 12, 2025
 
-diffusers>=0.33.1
-huggingface_hub[cli]>=0.30.2
-onnx>=1.18.0
-onnxruntime>=1.22.0
+diffusers
+olive-ai[auto-opt]
+onnxruntime-genai
+optimum[onnxruntime]
+sentencepiece
+transformers

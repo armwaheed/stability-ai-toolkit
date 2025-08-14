@@ -1,8 +1,10 @@
-*__pycache__*
-.DS_Store
+*venv*
 *.err
 *.gradio
 *.out
 *.pyc
 *.sbatch
-*venv*
+*__pycache__*
+.DS_Store
+.olive-cache
+build

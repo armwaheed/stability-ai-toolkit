@@ -1,0 +1,15 @@
+{
+  "input_model": {
+    "type": "ONNXModel",
+    "model_path": "./build/.text_encoder_2_a8/model.onnx"
+  },
+  "passes": {
+    "w4": {
+      "type": "MatMulNBitsToQDQ",
+      "bits": 4,
+      "per_channel": true,
+      "symmetric": true
+    }
+  },
+  "output_dir": "./build/text_encoder_2"
+}

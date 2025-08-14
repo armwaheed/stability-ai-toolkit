@@ -1,0 +1,31 @@
+{
+  "input_model": {
+    "type": "ONNXModel",
+    "model_path": "./stable-diffusion-3.5-medium-onnx/text_encoder/model.onnx"
+  },
+  "data_configs": [
+    {
+      "name": "dummy_calib",
+      "type": "DummyDataContainer",
+      "load_dataset_config": {
+        "input_names": ["input_ids", "attention_mask"],
+        "input_shapes": [[1, 77], [1, 77]],
+        "input_types": ["int64", "int64"]
+      },
+      "dataloader_config": { "batch_size": 1 }
+    }
+  ],
+  "passes": {
+    "a8": {
+      "type": "OnnxStaticQuantization",
+      "data_config": "dummy_calib",
+      "activation_type": "uint8",
+      "per_channel": true,
+      "activation_symmetric": false,
+      "weight_symmetric": true,
+      "save_as_external_data": true,
+      "all_tensors_to_one_file": false
+    }
+  },
+  "output_dir": "./build/.text_encoder_a8"
+}
